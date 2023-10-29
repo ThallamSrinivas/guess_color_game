@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <section> 
+        <h2> Guees the color</h2>
+    </section>
+
+    <div>
+        <input placeholder="Enter Player Name..." id="player-id" />
+        <button id="player-button">Add</button>
+    </div>
+    
+    <section>
+        <h3>Input configuration</h3>
+        <div class="input">
+            <h5 class="box" id="input_Red"> R</h5>
+            <h5 class="box" id="input_Green"> G</h5>
+            <h5 class="box" id="input_Blue"> B</h5>
+        </div>
+        
+    </section>
+
+    <section>
+        <h3>Guess output color</h3>
+        <div class="output">
+            <h5 class="box out" id="output1"> 1</h5>
+            <h5 class="box out" id="output2"> 2</h5>
+            <h5 class="box out" id="output3"> 3</h5>
+            <h5 class="box out" id="output4"> 4</h5>
+            <h5 class="box out" id="output5"> 5</h5>
+            <h5 class="box out" id="output6"> 6</h5>
+        </div> 
+    </section>
+    
+    <section>
+        <h4 id="player">Player_name: </h4>
+    </section>
+    <section style = "display:flex; gap: 50px;">
+        <h4 id="TG">no.of guesses: </h4>
+        <h4 id="CG">right guesses: </h4>
+        <h4 id="WG">wrong guesses: </h4>
+    </section>
+    
+    <script src="colorgame.js"></script>
+    <script src="util.js"></script>
+
+</body>
+</html>
